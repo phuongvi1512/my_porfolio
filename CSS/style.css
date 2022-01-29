@@ -1,9 +1,17 @@
 
 body {
-    background-color: antiquewhite;
+    background-color:lavender;
 }
 
 p {
     color: black;
     font-family: monospace;
+}
+
+h1 {
+    color:brown;
+}
+
+h2 {
+    color: rgb(58, 47, 212);
 }
