@@ -3,17 +3,16 @@ body {
     background-color:lavender;
 }
 
-p {
-    color: black;
-    font-family: ;
-}
-
 h1 {
     color:crimson;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
+p {
+    color:black;
+    font-family: 'IBM Plex Serif', serif;
+}
+
 h2 {
     color:blue;
-    font-family: 'IBM Plex Serif', serif;
 }
