@@ -5,13 +5,15 @@ body {
 
 p {
     color: black;
-    font-family: monospace;
+    font-family: ;
 }
 
 h1 {
     color:brown;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 h2 {
     color: rgb(58, 47, 212);
+    font-family: 'IBM Plex Serif', serif;
 }
