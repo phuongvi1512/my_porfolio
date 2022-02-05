@@ -1,23 +1,46 @@
-
 body {
     background-color:#E6E6FA;
 }
 
-h1 {
+h1, ul {
     color:#DC143C;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
-p {
-    color:black;
+h1 {
+    text-align: center;
+}
+
+p, h2, ol {
+    color: #000;
     font-family: 'IBM Plex Serif', serif;
     max-width: 400px;
 }
 
-h2 {
-    color:#0000FF;
+section {
+    max-width: 200px;
+    padding: 0px;
+    border-bottom: 5px solid gray;
+    margin: 0;
 }
 
-image {
-    max-width: 100px;
+div {
+    background-color: #000ff0;
 }
+
+.one {
+    float: left;
+    color: #000;
+    text-align: left;
+    padding: 12px 13px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+
+.personality {
+    background-color: #DC143C;
+}
+
+
+
