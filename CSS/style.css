@@ -1,18 +1,23 @@
 
 body {
-    background-color:lavender;
+    background-color:#E6E6FA;
 }
 
 h1 {
-    color:crimson;
+    color:#DC143C;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 p {
     color:black;
     font-family: 'IBM Plex Serif', serif;
+    max-width: 400px;
 }
 
 h2 {
-    color:blue;
+    color:#0000FF;
+}
+
+image {
+    max-width: 100px;
 }
