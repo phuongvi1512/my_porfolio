@@ -11,11 +11,10 @@ h1 {
 p, h2, ol {
     color: #000;
     font-family: 'IBM Plex Serif', serif;
-    max-width: 400px;
 }
 
 section {
-    max-width: 200px;
+    max-width: 400px;
     padding: 0px;
     margin: 0;
 }
@@ -28,7 +27,7 @@ image {
 nav {
     position: sticky;
 	top: 0px;
-    background-color: antiquewhite;
+    background-color: #faebd7;
 }
 
 ul {
@@ -45,7 +44,7 @@ nav a:visited {
 }
 
 nav a:hover {
-    color: blue;
+    color: #00f;
 }
 
 
