@@ -1,9 +1,7 @@
-body {
-    background-color:#E6E6FA;
-}
+
 
 h1 {
-    color:#DC143C;
+    color:#000;
     text-align: center;
     font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
@@ -17,23 +15,39 @@ p, h2, ol {
 section {
     max-width: 200px;
     padding: 0px;
-    border-bottom: 5px solid gray;
     margin: 0;
 }
 
+image {
+    display: block;
+    max-width: 100%;
+}
 
-
-  
-nav ul {
-	position: -webkit-sticky;
-	position: sticky;
+nav {
+    position: sticky;
 	top: 0px;
-    background-color: aquamarine;
+    background-color: antiquewhite;
 }
 
-
-
-:root {
-    background: white;
+ul {
+    list-style-type: none;
 }
+
+nav li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav a:link {
+    color: #000;
+}
+
+nav a:visited {
+    color: #DC143C;
+}
+
+nav a:hover {
+    color: blue;
+}
+
 
