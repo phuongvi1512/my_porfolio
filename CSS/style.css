@@ -24,20 +24,23 @@ image {
     max-width: 100%;
 }
 
-nav {
-    position: sticky;
-	top: 0px;
-    background-color: #faebd7;
-}
 
-ul {
+nav {
+    height: 60px;
+    background-color: var(--nav-bg-color);
+}
+  
+nav ul {
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+nav li {
     list-style-type: none;
 }
 
-nav li {
-    display: inline-block;
-    padding: 5px;
-}
 
 nav a:visited {
     color: #DC143C;
