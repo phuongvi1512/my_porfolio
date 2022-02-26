@@ -7,13 +7,62 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Serif:wght@300;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <style>
+        a {
+            text-decoration: underline;
+            color: #00f;
+        }
+    </style>
     <title>Tutorial on JavaScript variables</title>
 </head>
 
 <body>
     <h1>Tutorial on JavaScript variables for Beginner</h1>
 
+    <h2>Overview about JavaScript</h2>
+
+    <p>Javascript is a high-level programming language that is popular in creating web. Javascript helps increase interactivity in webs. It was created to use to make web more lively but now it is used in different coding environments.</p>
+
+    <h3>How to name variables in JavaScript</h3>
+    <p>Variable name must not have special case except ‘$’ and ‘_’. First character in variable name must not be number like 1,2,3.  Variable name can contain number or alphabetic character. It is better to have a semantic name for variables.</p>
+
+    <h3>Data types</h3>
+    <p>JavaScript has different <em>data types</em>:</p>
+    <ul>
+        <li>Number: integer or floating number</li>
+        <li>String: a sequence of text that wrapped inside a single or double quoted. Example: ‘Hello World!’ or “Hello World”</li>
+    </ul>
+    <p>You can learn more about <a href="https://javascript.info/types" alt="link to detailed explanation about data types"> Javascript Data types in here</a>.</p>
+
+    <h3>JavaScript Syntax</h3>
+    <p>Javascript Syntax is a collection of rules about types of values. There are two types of values:</p>
+    <ul>
+        <li>Fixed values or literal</li>
+        <li>Variable values or variables (var)</li>
+    </ul>
+    <p><strong>Fixed Values</strong> variable values or variables (var)</p>
+    <p><strong>Variable values</strong> are values when the data type of variable is undefined. In other words, variable is like a container and different types of value can be stored inside variable. However, with fixed values, only values with same data type can be stored.</p>
+
+    <h2>Differences between <em>var, let, const</em>:</h2>
+
+    <p><strong>var</strong> is a keyword that is used to declare a variable. It can be used to declare same variables many times.</p>
+    <p>In below example, var 'Name' is declared twice and value of var 'Name' is assigned with the value that is assigned after.</p>
+    <p>var Name = 'Jim';</p>
+    <p>var Name = 'Peter';</p>
+    <p>alert(Name);</p>
+    <p>javascript.info says Peter</p>
+
+    <p><strong>let</strong> is similar to var but can only be used once to declare a variable.</p>
+    <p>In below example, Javascript has Syntax Error because variable <em>'date'</em> is declared twice. You can find more details from <a href="https://javascript.info/var">here</a>.</p>
+    <p>let date;</p>
+    <p>let date;</p>
+    
+    <p><strong>const</strong> refers to ‘constant’. If you use constant, it is a literal and must be assigned with a fixed value. And the value of const cannot be changed (except for arrays). It cannot be redeclared.</p>
+    <p>In below example, JavaScript says 'TypeError: Assignment to constant variable' because variable 'Age' is const and has value of 25 but later is assgined with 27.</p>
+    <p>const Age = 25;</p>
+    <p>Age = 27;</p>
+    <p><strong>Note</strong>: Javascript is case-sensitive. Variables like <em>FName</em> and <em>Fname</em> are considered to be different variables. It is same to come with function, for example <em>‘let’</em> or <em>‘const’</em>, Javascript does not recognize <em>‘Let’</em> or <em>‘Const’</em>.</p>
 
 </body>
 </html>
