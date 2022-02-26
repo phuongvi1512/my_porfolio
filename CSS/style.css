@@ -13,9 +13,8 @@ p, ol {
 }
 
 section {
-    max-width: 600px;
-    padding: 0px;
-    margin: 0;
+    padding: 10px;
+    margin: 10px;
 }
 
 nav {
@@ -35,7 +34,29 @@ nav ul {
     justify-content: right;
     align-items: center;
 }
-    
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.box .image {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    max-width: 400px;
+    height: auto;
+    align-items: center;
+}    
+.box .text {
+    max-width: 600px;
+    align-items: center;
+}
+#one {
+    order: 1;
+}
 nav li {
     list-style-type: none;
 }
